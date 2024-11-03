@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    color: white;
+}
+
+@layer base {
+  :root {
+        --radius: 0.5rem;
+    }
+}
+
+nextjs-portal {
+    display: none;
+  }
+  
